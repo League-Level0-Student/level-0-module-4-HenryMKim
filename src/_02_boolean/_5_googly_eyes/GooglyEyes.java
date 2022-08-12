@@ -59,7 +59,9 @@ background(face);
     	fill(255, 255,255);
     	ellipse(550, 270, 100, 100);
     	ellipse(450, 245, 100, 100);
-    	
+    	fill(0,0,0);
+    	ellipse(450, 245, 10, 10);
+    	ellipse(550, 270, 10, 10);
     }
 
     static public void main(String[] args) {
