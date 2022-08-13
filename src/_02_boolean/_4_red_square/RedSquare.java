@@ -25,10 +25,6 @@ public class RedSquare {
 		if(isRed && isSquare) {
 			drawRedSquare();
 		}
-		else {
-            JOptionPane.showMessageDialog(null, "No shape was drawn!");
-        }
-		
 		// 1. Run the program and notice no shape is drawn.
 		
 		// 2. Initialize isRed to true instead of false and run the program 
@@ -65,18 +61,20 @@ public class RedSquare {
 		if(drewRedSquare || drewBlueSquare == true) {
 			JOptionPane.showMessageDialog(null, "You drew a square!");
 		}
-		}
+		
 		//    Notice these static booleans start off false, but update to true 
 		//    whenever you call their matching method.
 		
 		// 8. Write an else if statement that tells the user they drew a 
 		//    triangle if drewRedTriangle or drewBlueTriangle are true.
-		
+		else if(drewRedTriangle || drewBlueTriangle == true) {
+			JOptionPane.showMessageDialog(null, "You drew a triangle!");
+		}
 		// 9. Keep rerunning the program and change the isRed and isSquare 
 		//    variables like you did in step 6. Make sure that when it draws
 		//    a shape that the pop-up correctly says what it drew. 
 	
-	
+	}
 	
 	static void drawRedSquare() {
 		Robot rob = new Robot();
