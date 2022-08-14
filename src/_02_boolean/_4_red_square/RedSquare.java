@@ -39,12 +39,23 @@ public class RedSquare {
 		
 		// 4. Write an else if statement that calls drawRedTriangle() if isRed
 		//    is true and isSquare is false.
+<<<<<<< HEAD
 		else if(isRed == true && isSquare == false) {
 			drawRedTriangle();
 		}
+=======
+		else if(isRed == true && isSquare == false){
+			drawRedTriangle();
+		}
+		
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
 		// 5. Write an else if statement that calls drawBlueTriangle if both
 		//    isRed and isSquare are false.
+<<<<<<< HEAD
 		else if(isRed == false && isSquare == false) {
+=======
+		else if(isRed == false && isSquare == false){
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
 			drawBlueTriangle();
 		}
 		// 6. Keep rerunning your program, initializing isRed and isSquare to 
@@ -58,8 +69,13 @@ public class RedSquare {
 		// 7. Write an if statement using the static booleans at the top of 
 		//    the program. If drewRedSquare OR drewBlueSquare are true, then
 		//    tell the user they drew a square in a pop-up. Hint: ||
+<<<<<<< HEAD
 		if(drewRedSquare || drewBlueSquare == true) {
 			JOptionPane.showMessageDialog(null, "You drew a square!");
+=======
+		if (drewRedSquare || drewBlueSquare == true) {
+			JOptionPane.showMessageDialog(null, "You drew a square.");
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
 		}
 		
 		//    Notice these static booleans start off false, but update to true 
@@ -67,9 +83,15 @@ public class RedSquare {
 		
 		// 8. Write an else if statement that tells the user they drew a 
 		//    triangle if drewRedTriangle or drewBlueTriangle are true.
+<<<<<<< HEAD
 		else if(drewRedTriangle || drewBlueTriangle == true) {
 			JOptionPane.showMessageDialog(null, "You drew a triangle!");
 		}
+=======
+		else if (drewRedTriangle || drewBlueTriangle == true) {
+		JOptionPane.showMessageDialog(null, "You drew a triangle.");
+	}
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
 		// 9. Keep rerunning the program and change the isRed and isSquare 
 		//    variables like you did in step 6. Make sure that when it draws
 		//    a shape that the pop-up correctly says what it drew. 

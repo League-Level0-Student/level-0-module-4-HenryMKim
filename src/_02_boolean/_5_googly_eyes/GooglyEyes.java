@@ -37,10 +37,16 @@ import processing.core.PImage;
  *    to the boundary. Put this code before you draw the pupils.
  */
 public class GooglyEyes extends PApplet {
+<<<<<<< HEAD
     static final int WIDTH = 480;
     static final int HEIGHT = 480;
     int x = 1;
     int y = 1;
+=======
+    static final int WIDTH = 900;
+    static final int HEIGHT = 900;
+    
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
     PImage face;
     
     @Override
@@ -50,12 +56,19 @@ public class GooglyEyes extends PApplet {
     
     @Override
     public void setup() {
+<<<<<<< HEAD
     	 face = loadImage("golden-retriever-dog-breed-info.jpg");
     	 
+=======
+face = loadImage("Kirbys-Dream-Buffet-MainArt-900x900.jpg");
+face.resize(WIDTH, HEIGHT);
+background(face);
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
     }
 
     @Override
     public void draw() {
+<<<<<<< HEAD
     	
     	y = mouseY;
     	x = mouseX;
@@ -79,6 +92,14 @@ if(y < 70) {
 fill(0,0,0);
 ellipse(x,y,10,10);
 ellipse(x + 80,y + 0,10,10);
+=======
+    	fill(255, 255,255);
+    	ellipse(550, 270, 100, 100);
+    	ellipse(450, 245, 100, 100);
+    	fill(0,0,0);
+    	ellipse(450, 245, 10, 10);
+    	ellipse(550, 270, 10, 10);
+>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
     }
 
     static public void main(String[] args) {
