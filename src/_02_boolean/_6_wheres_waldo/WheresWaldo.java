@@ -38,8 +38,8 @@ import processing.core.PImage;
  *      playWhoohoo() method, otherwise call the playDoh() method.
  */
 public class WheresWaldo extends PApplet {
-    static final int WIDTH = 600;
-    static final int HEIGHT = 400;
+    static final int WIDTH = 1070;
+    static final int HEIGHT = 719;
 
     PImage waldo;
 
@@ -50,7 +50,8 @@ public class WheresWaldo extends PApplet {
 
     @Override
     public void setup() {
-        
+    	waldo = loadImage("waldo.jpg");
+    	background(waldo);
     }
 
     @Override
