@@ -37,16 +37,16 @@ import processing.core.PImage;
  *    to the boundary. Put this code before you draw the pupils.
  */
 public class GooglyEyes extends PApplet {
-<<<<<<< HEAD
+
     static final int WIDTH = 480;
     static final int HEIGHT = 480;
     int x = 1;
     int y = 1;
-=======
+
     static final int WIDTH = 900;
     static final int HEIGHT = 900;
     
->>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
+//>>>>>>> branch 'master' of https://github.com/League-Level0-Student/level-0-module-4-HenryMKim.git
     PImage face;
     
     @Override
